@@ -1,2 +1,0 @@
-# BlackCoffinCo
-Created with CodeSandbox

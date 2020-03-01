@@ -69,3 +69,7 @@
   display: inline-block;
   margin: 2%;
 }
+
+.HamburgerOpen {
+  background-image: "./Assets/Hamburger_icon.svg";
+}

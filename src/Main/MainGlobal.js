@@ -2,6 +2,7 @@ import React from "react";
 import "../styles.css";
 import Hamburger from "./Hamburger.js";
 import Navbar from "./Navbar";
+import logo from "../Assets/logo.jpg";
 
 class MainGlobal extends React.Component {
   constructor(props) {
@@ -21,7 +22,9 @@ class MainGlobal extends React.Component {
         <div className="Header">
           <div className="HeaderTop">
             <div className="HeaderLeft">
-              <h3 className="HeaderTitle">Black Coffin Co</h3>
+              <div className="HeaderTitle">
+                <img src={logo} alt="Home" width="75px" height="75px" />
+              </div>
             </div>
             <div className="HeaderRight">
               <h4 className="HeaderButtons">

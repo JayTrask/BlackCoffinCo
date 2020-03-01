@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles.css";
+import icon from "../Assets/Hamburger_icon.png";
 
 class Hamburger extends React.Component {
   constructor(props) {
@@ -22,10 +23,18 @@ class Hamburger extends React.Component {
   render() {
     return (
       <div className="HamburgerOpen">
-        <button onClick={this.Toggle}>
-          {this.state.Toggle && <div>open</div>}
-          {!this.state.Toggle && <div>closed</div>}
-        </button>
+        <a href="#" onClick={this.Toggle}>
+          {this.state.Toggle && (
+            <div>
+              <img src={icon} alt="Logo" width="30px" height="30px" />
+            </div>
+          )}
+          {!this.state.Toggle && (
+            <div>
+              <img src={icon} alt="Logo" width="30px" height="30px" />
+            </div>
+          )}
+        </a>
       </div>
     );
   }

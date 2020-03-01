@@ -2,6 +2,8 @@
   font-family: sans-serif;
   text-align: center;
   height: 100vh;
+  width: 100%;
+  background-color: rgb(20, 12, 12);
 }
 
 .Spacer {
@@ -18,15 +20,17 @@
 }
 
 .HeaderTop {
-  background-color: #555;
+  background-color: rgb(7, 6, 6);
   height: 50%;
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .HeaderBottom {
-  background-color: #555;
+  background-color: rgb(7, 6, 6);
   height: 50%;
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .HeaderButtons {
@@ -44,19 +48,19 @@
 .HeaderLeft {
   width: 40%;
   text-align: left;
-  color: black;
+  color: white;
 }
 .HeaderRight {
   width: 60%;
   text-align: right;
-  color: black;
+  color: white;
 }
 
 .Navbar {
   width: 100%;
   height: 100%;
   text-align: center;
-  color: black;
+  color: white;
 }
 
 .NavItem {
